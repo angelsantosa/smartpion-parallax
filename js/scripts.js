@@ -7,7 +7,19 @@ Version      : 1.0
 	'use strict';
 
 	jQuery(document).on('ready', function(){
-
+		
+		$('.featured_slider').slick({
+      dots: true,
+      infinite: true,
+      speed: 800,
+      arrows:false,
+      slidesToShow: 1,
+      slide: 'div',
+      autoplay: true,
+      fade: true,
+      autoplaySpeed: 5000,
+      cssEase: 'linear'
+    });
 		/*PRELOADER JS*/
 		$(window).on('load', function() {
 			$('.status').fadeOut();

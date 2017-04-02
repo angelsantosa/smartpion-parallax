@@ -26,7 +26,11 @@
 		<!--ytp player-->
 		<link rel="stylesheet" href="css/YTPlayer/jquery.mb.YTPlayer.css">
 		<!-- Style CSS -->
-      <link href="css/lightbox.css" rel="stylesheet">
+    <link href="css/lightbox.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+		<!-- Add the slick-theme.css if you want default styling -->
+		<link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css"/>
+
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/responsive.css">
 		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -107,7 +111,9 @@
 						<ul class="nav navbar-nav navbar-right">
 							<li><a class="page-scroll" href="#home">Home</a></li>
 							<li><a class="page-scroll" href="#about">Nosotros</a></li>
+							<li><a class="page-scroll" href="#smartpeon">Smart Pe-ON</a></li>
 							<li><a class="page-scroll" href="#projects">Producto</a></li>
+							<li><a class="page-scroll" href="#smartpeon4">Smart Pe-ON V4.0</a></li>
 							<li><a class="page-scroll" href="#team">Fundadores</a></li>
               <li><a class="page-scroll" href="#gallery">Galeria</a></li>
 						</ul>
@@ -120,33 +126,34 @@
 		<!-- START ABOUT -->
 		<section id="about" class="feature section-padding">
 			<div class="container">
-				<div class="row">
-					<div class="section-title text-center wow zoomIn">
-						<h2>Nosotros</h2>
-						<div></div>
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12 single_about wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s" data-wow-offset="0">
-						<i class="fa fa-tablet color-one"></i>
-						<h4>Professional</h4>
-						<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
-					</div><!--- END COL -->
-					<div class="col-md-3 col-sm-6 col-xs-12 single_about wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s" data-wow-offset="0">
-						<i class="fa fa-life-ring color-two"></i>
-						<h4>Passion</h4>
-						<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
-					</div><!--- END COL -->
-					<div class="col-md-3 col-sm-6 col-xs-12 single_about wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s" data-wow-offset="0">
-						<i class="fa fa-paper-plane-o color-three"></i>
-						<h4>Complete</h4>
-						<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
-					</div><!--- END COL -->
-					<div class="col-md-3 col-sm-6 col-xs-12 single_about wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s" data-wow-offset="0">
-						<i class="fa fa-file-text-o color-four"></i>
-						<h4>Well Documented</h4>
-						<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
-					</div><!--- END COL -->
-				</div><!--- END ROW -->
-			</div><!--- END CONTAINER -->
+		         <div class="row">
+							 <div class="section-title text-center wow zoomIn">
+ 								<h2>Nosotros</h2>
+ 								<div></div>
+ 							</div>
+
+							<div class="col-md-12" style="margin-bottom: 50px;">
+									<p style="font-size: 16px;line-height: 28px;font-weight: 300;color: #333;">
+										Nosotros somos Co-fundadores de <b>T.A.I.A. Integral</b>, una empresa <b>joven</b> con muchos años de <b>experiencia</b>.
+
+	Hemos trabajado juntos en <b>diversos proyectos</b> lo que nos han abierto un panorama mas amplio de las cosas.
+	<b>Identificando</b> la decadenia tecnologica en el sector agroindustrial lo que nos permite en darle crear a <b>Smart Pe-On</b></p>
+							</div>
+
+							<div class="col-md-offset-3 col-md-3 col-sm-6 col-xs-12 single_about wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s" data-wow-offset="0">
+		<i class="fa fa-paper-plane-o color-one"></i>
+		<h4>Mision</h4>
+		<p>Ayudar al recurso más importante de nuestro país, <b>su gente</b>. Aplicar recursos tecnologicos en el sector mas grande del país.</p>
+	</div><!--- END COL -->
+	<div class="col-md-3 col-sm-6 col-xs-12 single_about wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s" data-wow-offset="0">
+		<i class="fa fa-eye color-four"></i>
+		<h4>Vision</h4>
+		<p>Aplicación de las <b>nuevas tecnologías</b> buscando la inserción en los sectores primarios y secundarios.</p>
+	</div><!--- END COL -->
+		         </div>
+		       </div>
+
+
 		</section>
 		<!-- END ABOUT -->
 
@@ -158,51 +165,60 @@
 								<h2>Smart Pe-ON</h2>
 								<div></div>
 							</div>
-							<div class="col-md-4 col-sm-4 col-xs-12 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.1s">
-								<div class="single_why">
-									<div class="single_why_title"><h4><i class="fa fa-desktop color-one"></i> Fully Responsive</h4></div>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
-								</div>
+<div class="col-md-12" style="margin-bottom: 50px;">
+							<p style="font-size: 16px;line-height: 28px;font-weight: 300;color: #333;padding-bottom:10px;">
+								Sistema de Control, Monitoreo y Gestión basado en <b>Tecnología IoT</b> que Maximiza los Recursos en las Cadenas de Valor y Suministro en el <b>Sector Agro Industrial</b> a <b>Nivel Nacional</b>.
+						</p>
+							<p style="font-size: 16px;line-height: 28px;font-weight: 300;color: #333;padding-bottom:10px;">
+								Basado en el uso de <b>tecnologías de la información, Ingeniería de SW y HW, suite de aplicaciones móviles y conectividad web en tiempo real</b>, SMART P-On, sirve como herramienta de primera mano para aprovechar de manera estratégica e inmediata la información necesaria obtenida a base de la automatización, instrumentación y control de procesos implícitos en la operatividad del sector agro industrial (alimentaria y no alimentaria).
+								</p>
+							<p style="font-size: 16px;line-height: 28px;font-weight: 300;color: #333;padding-bottom:10px;">
+								Su implementación se traduce en múltiples beneficios, tales como: la <b>disminución de tiempos de ejecución, reducción de costos operativos-riesgos de perdida</b> y una mejora en la toma de decisiones estratégicas en cada una de las fases involucradas.
+							</p>
+</div>
 
-								<div class="single_why">
-									<div class="single_why_title"><h4><i class="fa fa-book color-two"></i> Latest Bootstrap</h4></div>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
-								</div>
+<div class="service_area">
+  <div class="container">
+    <div class="row">
+			<div class="col-md-12">
+				<h2>Características</h2>
+			</div>
+      <div class="service_section wow bounceInLeft animated text-center">
+          <div class="col-md-3">
+            <div class="single_service">
+              <div class="ico"><i class="fa fa-cubes"></i></div>
+              <h2>Modular integral</h2>
+            </div>
+          </div>
 
-								<div class="single_why">
-									<div class="single_why_title"><h4><i class="fa fa-support color-three"></i> Dedicated Support</h4></div>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
-								</div>
+          <div class="col-md-3">
+            <div class="single_service">
+              <div class="ico"><i class="fa fa-exchange"></i></div>
+              <h2>Compatibilidad</h2>
+            </div>
+          </div>
 
-								<div class="single_why">
-									<div class="single_why_title"><h4><i class="fa fa-heart-o color-four"></i> We Love our Customer</h4></div>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
-								</div>
-							</div><!--- END COL -->
-							<div class="col-md-4 col-sm-4 col-xs-12  wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s">
-								<div class="single_why_img"><img src="assets/img/man2.png" class="img-responsive" alt="" /></div>
-							</div><!--- END COL -->
-							<div class="col-md-4 col-sm-4 col-xs-12  wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.1s">
-								<div class="single_why">
-									<div class="single_why_title"><h4><i class="fa fa-bar-chart color-five"></i> Mordern Design</h4></div>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
-								</div>
+          <div class="col-md-3">
+            <div class="single_service">
+              <div class="ico"><i class="fa fa-briefcase"></i></div>
+              <h2>Versatilidad</h2>
+            </div>
+          </div>
 
-								<div class="single_why">
-									<div class="single_why_title"><h4><i class="fa fa-code color-six"></i> HTML5/CSS3 </h4></div>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
-								</div>
+					<div class="col-md-3">
+            <div class="single_service">
+              <div class="ico"><i class="fa fa-money"></i></div>
+              <h2>Bajo costo</h2>
+            </div>
+          </div>
 
-								<div class="single_why">
-									<div class="single_why_title"><h4><i class="fa fa-file color-seven"></i> Well Documentation </h4></div>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
-								</div>
+      </div>
+    </div>
+  </div>
+</div><!-- service area end   -->
 
-								<div class="single_why">
-									<div class="single_why_title"><h4><i class="fa fa-cog color-eight"></i> Easy Customization </h4></div>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
-								</div>
-							</div><!--- END COL -->
+
+
 						</div><!--- END ROW -->
 					</div><!--- END CONTAINER -->
 				</section>
@@ -220,7 +236,7 @@
             <!-- VIDEO POPUP -->
             <div class="modal fade video-modal" id="video-modal" role="dialog">
               <div class="video-modal-content">
-                <iframe width="712" height="400" src="https://www.youtube.com/embed/ITNLcNRb5ik"></iframe>
+                <iframe width="712" height="400" src="https://www.youtube.com/embed/qwiPAisMdts"></iframe>
               </div>
             </div>
             <!-- END VIDEO POPUP -->
@@ -240,58 +256,77 @@
 						<div></div>
 					</div>
 
-					<div class="col-md-offset-2 col-md-4">
-          <div class="wow bounceInLeft" data-wow-duration="1s" data-wow-delay="0.1s">
-            <img class="hvr-grow-rotate img-responsive" src="images/smartpion/sm3.png" width="600" alt="">
-          </div></div>
+					<div class="content-section-a">
 
-          <div class="col-md-4">
-          <div class="wow bounceInRight">
-            <img class="hvr-grow-rotate img-responsive" src="images/smartpion/sm4.png" width="600" alt="">
-          </div></div>
-					</div></div>
+					        <div class="container">
+					            <div class="row">
+					                <div class="col-lg-5 col-sm-6">
+					                    <hr class="section-heading-spacer">
+					                    <div class="clearfix"></div>
+					                    <h2 class="section-heading">Smart Pe-ON V1.0</h2>
+					                    <p class="lead">Conectividad PLC con WebServer</p>
+															<span class="fa-stack fa-4x">
+						                      <i class="fa fa-circle fa-stack-2x text-primary"></i>
+						                      <i class="fa fa-server fa-stack-1x fa-inverse"></i>
+						                  </span>
+					                </div>
+					                <div class="col-lg-5 col-lg-offset-2 col-sm-6 wow bounceInLeft" data-wow-duration="1s" data-wow-delay="0.1s">
+					                    <img class="hvr-grow-rotate img-responsive" src="images/smartpion/sm3.png" alt="">
+					                </div>
+					            </div>
 
-					<div class="container-fluid">
-						<div class="row text-center" style="padding-bottom: 80px;">
-          <div class="col-md-offset-2 col-md-4">
-            <div class="wow bounceInLeft" data-wow-duration="1s" data-wow-delay="0.1s">
-              <img class="hvr-grow-rotate img-responsive" src="images/smartpion/sm1.png" width="600" alt="">
+					        </div>
+					        <!-- /.container -->
+
+					    </div>
+
+				<div class="content-section-b">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Smart Pe-ON V2.0</h2>
+                    <p class="lead">Conectividad Arduino con 3G y app móvil</p>
+										<span class="fa-stack fa-4x">
+												<i class="fa fa-circle fa-stack-2x text-primary"></i>
+												<i class="fa fa-tablet fa-stack-1x fa-inverse"></i>
+										</span>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6 wow bounceInRight" data-wow-duration="1s" data-wow-delay="0.1s">
+                    <img class="hvr-grow-rotate img-responsive" src="images/smartpion/sm1.png" alt="">
+                </div>
             </div>
-          </div>
 
-          <div class="col-md-4">
-          <div class="wow bounceInRight" data-wow-duration="1s" data-wow-delay="0.1s">
-            <img class="hvr-grow-rotate img-responsive" src="images/smartpion/sm2.png" width="600" alt="">
-          </div></div></div></div>
+        </div>
+        <!-- /.container -->
+    </div>
 
+		<div class="content-section-a">
 
-					<div class="container-fluid">
-						<div class="row text-center" style="padding-bottom: 80px;">
+						<div class="container">
+								<div class="row">
+										<div class="col-lg-5 col-sm-6">
+												<hr class="section-heading-spacer">
+												<div class="clearfix"></div>
+												<h2 class="section-heading">Smart Pe-ON V3.0</h2>
+												<p class="lead">Conectividad Raspberry Pi</p>
+												<span class="fa-stack fa-4x">
+														<i class="fa fa-circle fa-stack-2x text-primary"></i>
+														<i class="fa fa-cog fa-stack-1x fa-inverse"></i>
+												</span>
+										</div>
+										<div class="col-lg-5 col-lg-offset-2 col-sm-6 wow bounceInLeft" data-wow-duration="1s" data-wow-delay="0.1s">
+												<img class="hvr-grow-rotate img-responsive" src="images/smartpion/sm8.png" alt="">
+										</div>
+								</div>
 
-					<div class="col-md-offset-2 col-md-4">
-          <div class="wow bounceInLeft" data-wow-duration="1s" data-wow-delay="0.1s">
-            <img class="hvr-grow-rotate img-responsive" src="images/smartpion/sm6.png" width="600" alt="">
-          </div></div>
+						</div>
+						<!-- /.container -->
 
-					<div class="col-md-4">
-          <div class="wow bounceInRight" data-wow-duration="1s" data-wow-delay="0.1s">
-            <img class="hvr-grow-rotate img-responsive" src="images/smartpion/sm8.png" width="600" alt="">
-          </div></div></div></div>
-
-					<div class="container-fluid">
-						<div class="row text-center">
-
-							<div class="col-md-offset-2 col-md-4">
-							<div class="wow bounceInLeft" data-wow-duration="1s" data-wow-delay="0.1s">
-								<img class="hvr-grow-rotate img-responsive" src="images/smartpion/sm7.png" width="600" alt="">
-							</div></div>
-
-          <div class="col-md-4">
-          <div class="wow bounceInRight" data-wow-duration="1s" data-wow-delay="0.1s">
-            <img class="hvr-grow-rotate img-responsive" src="images/smartpion/sm5.png" width="600" alt="">
-          </div></div>
-
-
+				</div>
 
 				</div></div>
 
@@ -300,6 +335,36 @@
 			</div><!-- END CONTAINER  -->
 		</section>
 		<!-- END PORTFOLIO -->
+		<section id="smartpeon4" class="feature section-padding">
+			<div class="container">
+		         <div class="row">
+							 <div class="section-title text-center wow zoomIn">
+ 								<h2>Smart Pe-ON V4.0</h2>
+ 								<div></div>
+ 							</div>
+
+							<div class="col-md-12" style="margin-bottom: 50px;">
+
+								<p style="font-size: 16px;line-height: 28px;font-weight: 300;color: #333;">
+									Los tres prototipos del proyectos permiten conectarnos en tiempo real con resultados satisfactorios, pero por la misma razón de ser un prototipo en desarrollo, su precio es elevado,
+							<b>¡Es por eso que necesitamos tu ayuda!</b>
+								</p>
+								<h2>¿ Por que Aportar a Smart Pe-ON?</h2>
+								<p style="font-size: 16px;line-height: 28px;font-weight: 300;color: #333;">
+									Para emigrar a la version 4.0 en la que ocuparemos tecnología de intel para desarrollar modulo gateway + módulo de sensores + app móvil + plataforma web en donde ahora si lo haremos versátil, robusto , confiable y a un costo accesible para sacarlo como producto y evidentemente implementarlo fácil y rápido, ya que hasta ahorita solo llevamos prototipos totalmente funcionales.
+								</p>
+
+								<p style="font-size: 16px;line-height: 28px;font-weight: 300;color: #333;">
+
+								</p>
+							</div>
+		         </div>
+		       </div>
+
+
+		</section>
+
+
 
 		<!-- START OUR TEAM -->
 		<section id="team" class="our_team section-padding">
@@ -316,8 +381,8 @@
 								<div class="social_link">
 									<div class="social_table">
 										<ul class="list-inline">
-											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-											<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+											<li><a target="_blank" href="https://www.facebook.com/SmartPeON"><i class="fa fa-facebook"></i></a></li>
+											<li><a target="_blank" href="https://twitter.com/SmartPeON"><i class="fa fa-twitter"></i></a></li>
 										</ul>
 									</div>
 								</div>
@@ -335,8 +400,8 @@
 								<div class="social_link">
 									<div class="social_table">
 										<ul class="list-inline">
-											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-											<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+											<li><a target="_blank" href="https://www.facebook.com/SmartPeON"><i class="fa fa-facebook"></i></a></li>
+											<li><a target="_blank" href="https://twitter.com/SmartPeON"><i class="fa fa-twitter"></i></a></li>
 										</ul>
 									</div>
 								</div>
@@ -354,8 +419,8 @@
 								<div class="social_link">
 									<div class="social_table">
 										<ul class="list-inline">
-											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-											<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+											<li><a target="_blank" href="https://www.facebook.com/SmartPeON"><i class="fa fa-facebook"></i></a></li>
+											<li><a target="_blank" href="https://twitter.com/SmartPeON"><i class="fa fa-twitter"></i></a></li>
 										</ul>
 									</div>
 								</div>
@@ -544,7 +609,9 @@
 		<!-- END FOOTER BOTTOM-->
 
 		<!-- Latest jQuery -->
+
 			<script src="js/jquery.js"></script>
+
 		<!-- Latest compiled and minified Bootstrap -->
 			<script src="js/bootstrap.min.js"></script>
 		<!-- modernizer JS -->
@@ -566,8 +633,7 @@
 			<script src="js/scrolltopcontrol.js"></script>
 		<!-- WOW - Reveal Animations When You Scroll -->
 			<script src="js/wow.min.js"></script>
-		<!-- map js -->
-			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwIQh7LGryQdDDi-A603lR8NqiF3R_ycA"></script>
+			<script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
 		<!-- scripts js -->
 			<script src="js/scripts.js"></script>
     </body>
