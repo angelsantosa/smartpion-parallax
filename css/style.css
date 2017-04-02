@@ -116,7 +116,7 @@ start sections a b
 }
 .status,
 .status-mes {
-    background-image: url(../img/status.gif);
+    background-image: url(../images/lightbox/loading.gif);
     background-position: center;
     background-repeat: no-repeat;
     height: 200px;
