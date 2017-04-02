@@ -7,7 +7,7 @@ Version      : 1.0
 	'use strict';
 
 	jQuery(document).on('ready', function(){
-		
+
 		$('.featured_slider').slick({
       dots: true,
       infinite: true,
@@ -17,7 +17,7 @@ Version      : 1.0
       slide: 'div',
       autoplay: true,
       fade: true,
-      autoplaySpeed: 5000,
+      autoplaySpeed: 1000,
       cssEase: 'linear'
     });
 		/*PRELOADER JS*/
